@@ -2,7 +2,7 @@ from typing import Optional
 from jose import jwt,JWTError
 from datetime import datetime,timedelta
 from fastapi import Depends
-from .schemas import TokenData
+from blog.schemas import TokenData
 
 SECRET_KEY="1hbschdwqg82u2hvwvjw1vwy1wb1uwkh1u9hh1wbo1ijwi1ui1"
 ALGORITHM="HS256"
